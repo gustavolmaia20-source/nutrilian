@@ -64,8 +64,10 @@ export default function Navbar() {
                   {l.label}
                 </a>
               ))}
-              <Button variant="hero" size="lg" className="mt-2">
-                Começar agora
+              <Button variant="hero" size="lg" className="mt-2" asChild>
+                <a href="http://wa.me/4799385118" target="_blank" rel="noopener noreferrer">
+                  Começar agora
+                </a>
               </Button>
             </div>
           </motion.div>

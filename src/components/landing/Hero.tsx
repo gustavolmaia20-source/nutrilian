@@ -24,11 +24,13 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button variant="hero" size="xl">
-              Começar agora <ArrowRight size={18} />
+            <Button variant="hero" size="xl" asChild>
+              <a href="http://wa.me/4799385118" target="_blank" rel="noopener noreferrer">
+                Começar agora <ArrowRight size={18} />
+              </a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Ver como funciona
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="#como-funciona">Ver como funciona</a>
             </Button>
           </div>
 
