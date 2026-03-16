@@ -2,7 +2,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const WA_LINK = "http://wa.me/4799385118";
+const WA_LINK = "https://wa.me/5547991033864";
 
 export default function Pricing() {
   return (
