@@ -17,7 +17,6 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 glass">
       <div className="container mx-auto h-16 md:h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 text-foreground font-extrabold text-xl">
-          <span className="w-8 h-8 bg-gradient-primary rounded-lg" />
           Nutri Lian
         </a>
 
