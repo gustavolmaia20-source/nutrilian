@@ -52,7 +52,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="heroOutline" size="lg" className="w-full" asChild>
-              <a href={WA_LINK} target="_blank" rel="noopener noreferrer" onClick={() => window.fbq?.('track', 'Lead')}>
+              <a href={WA_LINK} target="_blank" rel="noopener noreferrer" onClick={() => window.fbq?.('track', 'ViewContent')}>
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
