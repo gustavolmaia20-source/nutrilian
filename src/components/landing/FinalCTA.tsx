@@ -25,7 +25,7 @@ export default function FinalCTA() {
               className="bg-background text-foreground hover:bg-background/90 font-bold shadow-2xl rounded-full"
               asChild
             >
-              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer" onClick={() => window.fbq?.('track', 'Lead')}>
                 Quero começar agora <ArrowRight size={18} />
               </a>
             </Button>
