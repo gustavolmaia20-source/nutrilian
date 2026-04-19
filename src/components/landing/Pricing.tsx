@@ -52,7 +52,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="heroOutline" size="lg" className="w-full" asChild>
-              <a href="/ir">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
@@ -96,7 +96,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="hero" size="lg" className="w-full" asChild>
-              <a href="/ir">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
