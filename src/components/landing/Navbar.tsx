@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/nutrilian-logo.png";
 
 const navLinks = [
   { label: "Como funciona", href: "#como-funciona" },
@@ -16,8 +17,17 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 glass">
       <div className="container mx-auto h-16 md:h-20 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-2 text-foreground font-extrabold text-xl">
-          Nutri Lian
+        <a href="#" aria-label="Nutri Lian — Página inicial" className="flex items-center gap-2 text-foreground font-extrabold text-xl">
+          <img
+            src={logo}
+            alt="Logo Nutri Lian"
+            width={40}
+            height={40}
+            className="h-9 w-9 md:h-10 md:w-10 object-contain"
+            loading="eager"
+            decoding="async"
+          />
+          <span>Nutri Lian</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
