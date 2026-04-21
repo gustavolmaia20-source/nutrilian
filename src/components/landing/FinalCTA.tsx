@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import WhatsAppLink from "@/components/WhatsAppLink";
 
 export default function FinalCTA() {
   return (
@@ -25,9 +26,9 @@ export default function FinalCTA() {
               className="bg-background text-foreground hover:bg-background/90 font-bold shadow-2xl rounded-full"
               asChild
             >
-              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
+              <WhatsAppLink href="https://wa.me/5547999385118" contactLabel="Final CTA - Quero começar agora">
                 Quero começar agora <ArrowRight size={18} />
-              </a>
+              </WhatsAppLink>
             </Button>
           </div>
           <div className="absolute top-0 right-0 w-64 h-64 bg-foreground/10 blur-[100px] rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
