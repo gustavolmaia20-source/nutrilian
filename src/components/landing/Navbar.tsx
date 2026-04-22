@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "@/assets/nutrilian-logo.png";
-import WhatsAppLink from "@/components/WhatsAppLink";
 
 const navLinks = [
   { label: "Como funciona", href: "#como-funciona" },
@@ -75,9 +74,9 @@ export default function Navbar() {
                 </a>
               ))}
               <Button variant="hero" size="lg" className="mt-2" asChild>
-                <WhatsAppLink href="https://wa.me/5547999385118" contactLabel="Navbar Mobile - Começar agora">
+                <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                   Começar agora
-                </WhatsAppLink>
+                </a>
               </Button>
             </div>
           </motion.div>

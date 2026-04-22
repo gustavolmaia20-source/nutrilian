@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, ShieldCheck, MessageSquare, Target } from "lucide-react";
 import { motion } from "framer-motion";
 import WhatsAppMockup from "./WhatsAppMockup";
-import WhatsAppLink from "@/components/WhatsAppLink";
 
 export default function Hero() {
   return (
@@ -26,9 +25,9 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button variant="hero" size="xl" asChild>
-              <WhatsAppLink href="https://wa.me/5547999385118" contactLabel="Hero - Começar agora">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                 Começar agora <ArrowRight size={18} />
-              </WhatsAppLink>
+              </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="#como-funciona">Ver como funciona</a>
