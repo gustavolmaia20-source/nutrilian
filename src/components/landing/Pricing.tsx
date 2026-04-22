@@ -1,7 +1,8 @@
 import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import WhatsAppLink from "@/components/WhatsAppLink";
+
+const WA_LINK = "https://wa.me/5547999385118";
 
 export default function Pricing() {
   return (
@@ -51,9 +52,9 @@ export default function Pricing() {
             </ul>
 
             <Button variant="heroOutline" size="lg" className="w-full" asChild>
-              <WhatsAppLink contentName="pricing_mensal">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
-              </WhatsAppLink>
+              </a>
             </Button>
           </motion.div>
 
@@ -95,9 +96,9 @@ export default function Pricing() {
             </ul>
 
             <Button variant="hero" size="lg" className="w-full" asChild>
-              <WhatsAppLink contentName="pricing_semestral">
+              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
-              </WhatsAppLink>
+              </a>
             </Button>
           </motion.div>
         </div>
