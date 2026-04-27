@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
             <Button variant="hero" size="xl" asChild>
-              <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547996182395" target="_blank" rel="noopener noreferrer">
                 Começar agora <ArrowRight size={18} />
               </a>
             </Button>

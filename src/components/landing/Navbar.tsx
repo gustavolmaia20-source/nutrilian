@@ -64,7 +64,7 @@ export default function Navbar() {
                 </a>
               ))}
               <Button variant="hero" size="lg" className="mt-2" asChild>
-                <a href="https://wa.me/5547999385118" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5547996182395" target="_blank" rel="noopener noreferrer">
                   Começar agora
                 </a>
               </Button>
