@@ -2,7 +2,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const WA_LINK = "https://wa.me/5547996182395";
+const WA_LINK = "https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade";
 
 export default function Pricing() {
   return (
@@ -52,7 +52,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="heroOutline" size="lg" className="w-full" asChild>
-              <a href="https://wa.me/5547996182395" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
@@ -96,7 +96,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="hero" size="lg" className="w-full" asChild>
-              <a href="https://wa.me/5547996182395" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade" target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
