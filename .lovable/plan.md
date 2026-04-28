@@ -1,19 +1,15 @@
-# Atualizar número do WhatsApp em todos os CTAs
+Substituir todas as 7 ocorrências de `https://wa.me/5547996182395` pelo novo link com mensagem pré-preenchida:
 
-Substituir o número antigo `5547999385118` pelo novo `5547996182395` em todas as 7 ocorrências encontradas no projeto.
+`https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade`
 
-## Arquivos a alterar
+## Arquivos
 
-| Arquivo | Linhas |
+| Arquivo | Ocorrências |
 |---|---|
-| `src/components/landing/FinalCTA.tsx` | 28 |
-| `src/components/landing/Hero.tsx` | 28 |
-| `src/components/landing/Navbar.tsx` | 67 |
-| `src/components/landing/Pricing.tsx` | 5, 55, 99 |
-| `src/components/landing/StickyMobileCTA.tsx` | 8 |
+| `src/components/landing/FinalCTA.tsx` | 1 |
+| `src/components/landing/Hero.tsx` | 1 |
+| `src/components/landing/Navbar.tsx` | 1 |
+| `src/components/landing/Pricing.tsx` | 3 (constante `WA_LINK` + 2 literais) |
+| `src/components/landing/StickyMobileCTA.tsx` | 1 |
 
-Em todos os casos, troca pontual de `https://wa.me/5547999385118` para `https://wa.me/5547996182395`. Nenhuma outra lógica é tocada.
-
-## Observação
-
-O arquivo `Pricing.tsx` tem uma constante `WA_LINK` declarada mas não usada — os `<a>` repetem o link literal. Vou apenas atualizar o valor da constante e os literais para o novo número, sem refatorar (mantém o escopo mínimo). Se quiser depois eu centralizo todos os 7 usos numa única constante compartilhada.
+Troca pontual da string. Nenhuma outra lógica é alterada.
