@@ -2,7 +2,8 @@ import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const WA_LINK = "https://w.app/clkt4h";
+const WA_LINK =
+  "https://api.whatsapp.com/send?phone=555547996182395&text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+come%C3%A7ar+a+mudar+de+verdade%21";
 
 export default function Pricing() {
   return (

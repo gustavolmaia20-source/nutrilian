@@ -24,14 +24,28 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button variant="hero" size="xl" asChild>
-              <a href="#precos">
-                Começar agora <ArrowRight size={18} />
-              </a>
-            </Button>
-            <Button variant="heroOutline" size="xl" asChild>
-              <a href="#como-funciona">Ver como funciona</a>
-            </Button>
+            {/* Mobile: both buttons scroll to the plans */}
+            <div className="flex flex-col gap-4 sm:hidden w-full">
+              <Button variant="hero" size="xl" asChild>
+                <a href="#precos">
+                  Começar agora <ArrowRight size={18} />
+                </a>
+              </Button>
+              <Button variant="heroOutline" size="xl" asChild>
+                <a href="#precos">Ver os planos</a>
+              </Button>
+            </div>
+            {/* Desktop/tablet: keep original flow */}
+            <div className="hidden sm:flex flex-row gap-4">
+              <Button variant="hero" size="xl" asChild>
+                <a href="#precos">
+                  Começar agora <ArrowRight size={18} />
+                </a>
+              </Button>
+              <Button variant="heroOutline" size="xl" asChild>
+                <a href="#como-funciona">Ver como funciona</a>
+              </Button>
+            </div>
           </div>
 
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 text-muted-foreground text-sm">
