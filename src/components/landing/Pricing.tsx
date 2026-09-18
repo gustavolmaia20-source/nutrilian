@@ -2,7 +2,7 @@ import { Check, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
-const WA_LINK = "https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade";
+const WA_LINK = "https://w.app/clkt4h";
 
 export default function Pricing() {
   return (
@@ -33,7 +33,7 @@ export default function Pricing() {
               Acompanhamento contínuo mês a mês, sem compromisso de longo prazo.
             </p>
             <div className="text-4xl font-extrabold text-foreground mb-1">
-              R$ 49,90
+              R$ 19,90
             </div>
             <span className="text-muted-foreground text-xs mb-8">/mês</span>
 
@@ -52,7 +52,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="heroOutline" size="lg" className="w-full" asChild>
-              <a href="https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade" target="_blank" rel="noopener noreferrer">
+              <a href={WA_LINK} target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
@@ -76,7 +76,7 @@ export default function Pricing() {
               6 meses de acompanhamento com o melhor preço por mês.
             </p>
             <div className="text-4xl font-extrabold text-foreground mb-1">
-              R$ 29,90
+              R$ 16,65
             </div>
             <span className="text-muted-foreground text-xs mb-8">/mês</span>
 
@@ -96,7 +96,7 @@ export default function Pricing() {
             </ul>
 
             <Button variant="hero" size="lg" className="w-full" asChild>
-              <a href="https://wa.me/5547996182395?text=Ol%C3%A1%2C%20vim%20de%20um%20anuncio%20e%20quero%20come%C3%A7ar%20a%20evoluir%20de%20verdade" target="_blank" rel="noopener noreferrer">
+              <a href={WA_LINK} target="_blank" rel="noopener noreferrer">
                 Conversar com o Nutri Lian <ArrowRight size={16} />
               </a>
             </Button>
