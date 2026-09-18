@@ -28,8 +28,8 @@ const faqs = [
     a: "Toda semana você envia seu peso e percepção de esforço. A IA recalcula suas calorias, macros e volume de treino na hora, sem precisar esperar consulta.",
   },
   {
-    q: "Posso começar pelo desafio de 21 dias?",
-    a: "Sim! O Desafio 21 Dias é o ponto de entrada ideal. É um pagamento único de R$19,90 para você experimentar o sistema sem compromisso.",
+    q: "Existe compromisso de fidelidade?",
+    a: "Não. O Plano Mensal é R$29,90 e você pode cancelar quando quiser. Se preferir economizar, o Plano Semestral sai por R$16,65 por mês.",
   },
 ];
 

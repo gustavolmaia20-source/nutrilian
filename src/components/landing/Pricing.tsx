@@ -33,7 +33,7 @@ export default function Pricing() {
               Acompanhamento contínuo mês a mês, sem compromisso de longo prazo.
             </p>
             <div className="text-4xl font-extrabold text-foreground mb-1">
-              R$ 19,90
+              R$ 29,90
             </div>
             <span className="text-muted-foreground text-xs mb-8">/mês</span>
 
